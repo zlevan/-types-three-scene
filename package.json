@@ -1,0 +1,23 @@
+{
+  "name": "@types/three-scene",
+  "version": "0.0.1",
+  "main": "",
+  "types": "./src/main.d.ts",
+  "scripts": {},
+  "author": "evan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://evanspace.github.io"
+  },
+  "homepage": "https://evanspace.github.io",
+  "description": "this is a test!",
+  "keywords": [],
+  "exports": {
+    ".": {
+      "import": "./build/three-scene.module.js"
+    },
+    "./hooks": "./src/hooks/index.ts",
+    "./package.json": "./package.json"
+  }
+}
