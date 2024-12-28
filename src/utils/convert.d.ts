@@ -6,7 +6,7 @@
  * @example
  * numConverter( 1111555 )
  */
-export function numConverter(num: number, precision: number): number | string
+export function numConverter(num: number, precision?: number): number | string
 
 // 获取地址
 export function getUrl(

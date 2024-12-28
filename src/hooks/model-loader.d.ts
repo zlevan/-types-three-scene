@@ -1,4 +1,4 @@
-import type { ModelItem } from '../types/model'
+import type { ModelItem, ThreeModelItem } from '../types/model'
 
 import { Reactive } from 'vue'
 
@@ -20,7 +20,8 @@ interface UseModelLoader {
   ) => void
   getModel: (key: string) => any
   virtualization: (
-    model: any,
+    models: ThreeModelItem[],
+    model: ThreeModelItem,
     opts: import('../types/utils').DeepPartial<VtOptions>
   ) => void
   closeVirtualization: (model: any) => void

@@ -12,7 +12,7 @@ import type {
 export function get_P_S_R_param(
   model: any,
   item: ObjectItem,
-  s: number
+  s?: number
 ): {
   position: number[]
   rotation: number[]
@@ -80,7 +80,7 @@ export function getPlanePosition(
 export function findObjectsByHasProperty(
   children: any[],
   values: string[],
-  property: string
+  property?: string
 ): ThreeModelItem[]
 
 // 获取状态偏差值

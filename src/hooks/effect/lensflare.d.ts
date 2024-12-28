@@ -13,5 +13,5 @@ interface UseLensflare {
 
 // 太阳光晕 lensflare
 export declare function useLensflare(
-  options: import('../../types/utils').DeepPartial<Options>
+  options?: import('../../types/utils').DeepPartial<Options>
 ): UseLensflare

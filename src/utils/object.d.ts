@@ -14,4 +14,4 @@ export function isDOM(obj: any): boolean
 export function deepClone(target: object, map?: MapConstructor): object
 
 // 深度合并
-export function deepMerge(target: object, source: object): object
+export function deepMerge<T, K>(target: T, source: K): T & K

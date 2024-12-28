@@ -6,6 +6,10 @@ interface UseOpenTheDoor {
     scene: THREE.Scene,
     options: import('../../types/utils').DeepPartial<Options>
   ) => Promise<any>
+  oddRotate: (
+    scene: THREE.Scene,
+    options: import('../../types/utils').DeepPartial<Options>
+  ) => Promise<any>
   dubleRotate: (
     scene: THREE.Scene,
     options: import('../../types/utils').DeepPartial<Options>

@@ -12,7 +12,9 @@ interface UsemapBar {
       }
     },
     options?: import('../../types/utils').DeepPartial<Options>
-  ) => THREE.Group
+  ) => THREE.Group & {
+    isBar?: boolean
+  }
 }
 
 // 地图柱状图 map-bar
