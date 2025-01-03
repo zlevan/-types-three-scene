@@ -65,8 +65,8 @@ export function cameraLinkageControlsAnimate<T>(
 export function createSpriteAnimate<T>(
   model: T,
   POS: number[],
-  range: number,
-  duration: number
+  range?: number,
+  duration?: number
 ): T
 
 // 获取 3 维平面位置
