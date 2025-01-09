@@ -254,7 +254,7 @@ export class Scene {
 
   /**
    * 添加对象到场景
-   * @param { ...any[] } object 需要添加的对象，可穿多个
+   * @param { ...any[] } object 需要添加的对象，可传多个
    */
   addObject(...object: any[]): void
 
