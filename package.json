@@ -1,5 +1,5 @@
 {
-  "name": "@types/three-scene",
+  "name": "@evan/three-scene",
   "version": "0.0.1",
   "main": "",
   "types": "./src/main.d.ts",
